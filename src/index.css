@@ -13,10 +13,7 @@ body {
   background-size: cover;
 }
 
-.footer {
-  background: url(./images/footer.svg) top center no-repeat;
-  background-size: cover;
-}
+
 
 .cta {
   background: linear-gradient(rgba(2,2,2,.7),rgba(0,0,0,.7)),url(./images/dock.jpeg) fixed center center;

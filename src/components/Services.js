@@ -7,6 +7,10 @@ import img5 from '../images/vaccine.png';
 import img6 from '../images/aloevera.png';
 import img7 from '../images/granite.png';
 import img8 from '../images/human_hair.jpg';
+import img9 from '../images/rice.png';
+import img10 from '../images/pharmaceuticals.jpg';
+import img11 from '../images/cotton.png';
+import img12 from '../images/handi.jpg';
 
 // ... existing imports ...
 
@@ -104,6 +108,46 @@ const Services = () => {
                                     <h2 className="font-semibold my-4 text-2xl text-center ">Human Hair</h2>
                                     <p className="text-md font-medium">
                                         Discover our premium selection of human hair products. From extensions to wigs, we offer high-quality, ethically sourced human hair to meet diverse beauty and styling needs.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+                                <div className="m-2 text-justify text-sm">
+                                    <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img9} />
+                                    <h2 className="font-semibold my-4 text-2xl text-center ">Rice</h2>
+                                    <p className="text-md font-medium">
+                                        Explore our diverse selection of premium rice varieties. From aromatic basmati to nutritious brown rice, we offer high-quality grains to suit every culinary preference and dietary need.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+                                <div className="m-2 text-justify text-sm">
+                                    <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img10} />
+                                    <h2 className="font-semibold my-4 text-2xl text-center ">Pharmaceutical Chemicals</h2>
+                                    <p className="text-md font-medium">
+                                        Access our comprehensive range of pharmaceutical chemicals and mixtures. We provide high-quality, pure ingredients and custom formulations to meet the exacting standards of the pharmaceutical industry.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+                                <div className="m-2 text-justify text-sm">
+                                    <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img11} />
+                                    <h2 className="font-semibold my-4 text-2xl text-center ">Raw Cotton</h2>
+                                    <p className="text-md font-medium">
+                                        Source premium quality raw cotton from our extensive collection. We offer various grades and types of raw cotton, perfect for textile manufacturing and other industrial applications.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div className="bg-white transition-all ease-in-out duration-400  overflow-hidden text-gray-700 hover:bg-gray-500 hover:text-white rounded-lg shadow-2xl p-3 group">
+                                <div className="m-2 text-justify text-sm">
+                                    <img alt="card img" className="rounded-t group-hover:scale-[1.15] transition duration-1000 ease-in-out" src={img12} />
+                                    <h2 className="font-semibold my-4 text-2xl text-center ">Handicrafts</h2>
+                                    <p className="text-md font-medium">
+                                        Discover our exquisite collection of handcrafted items. From intricate textiles to unique decorative pieces, we offer a wide range of authentic handicrafts that showcase traditional artisanship and cultural heritage.
                                     </p>
                                 </div>
                             </div>
