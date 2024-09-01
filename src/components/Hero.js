@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import NavBar from '../components/Navbar/NavBar';
-import heroImg from '../images/logistics.webp';
+import heroImg from '../images/logi.webp';
 
 const Hero = () => {
     return (
@@ -35,7 +35,13 @@ const Hero = () => {
                             </div>
                         </div>
                         <div className="flex lg:justify-end w-full lg:w-1/2" data-aos="fade-up" data-aos-delay="700">
-                            <img alt="card img" className="rounded-t float-right duration-1000 w-full" src={heroImg} />
+                            <img 
+                                alt="Logistics illustration" 
+                                className="rounded-t float-right duration-1000 w-full"
+                                src={heroImg}
+                                fetchpriority="high"
+                                decoding="async"
+                            />
                         </div>
                     </div>
                 </div>
