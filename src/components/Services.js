@@ -1,16 +1,16 @@
 import React from 'react';
-import img from '../images/fruits.png';
-import img2 from '../images/veg.png';
-import img3 from '../images/dryFruits.png';
-import img4 from '../images/lentils.png';
-import img5 from '../images/vaccine.png';
-import img6 from '../images/aloevera.png';
-import img7 from '../images/granite.png';
-import img8 from '../images/human_hair.jpg';
-import img9 from '../images/rice.png';
-import img10 from '../images/pharmaceuticals.jpg';
-import img11 from '../images/cotton.png';
-import img12 from '../images/handi.jpg';
+import img from '../images/fruits.webp';
+import img2 from '../images/veg.webp';
+import img3 from '../images/dryFruits.webp';
+import img4 from '../images/lentils.webp';
+import img5 from '../images/vaccine.webp';
+import img6 from '../images/aloevera.webp';
+import img7 from '../images/granite.webp';
+import img8 from '../images/human_hair.webp';
+import img9 from '../images/rice.webp';
+import img10 from '../images/pharmaceuticals.webp';
+import img11 from '../images/cotton.webp';
+import img12 from '../images/handi.webp';
 
 // ... existing imports ...
 
